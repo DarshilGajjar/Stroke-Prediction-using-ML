@@ -16,6 +16,17 @@ This repository contains all the code and resources needed to reproduce the resu
 - [Results](#results)
 - [References](#references)
 
+## Project Structure
+
+The repository is organized as follows:
+
+- **data/**: This folder contains the dataset files used in this project. The dataset is preprocessed and used for training and testing the machine learning models.
+
+- **scripts/**: This folder contains the Python scripts used for data preprocessing, model training, testing, and evaluation.
+  - `data_preprocessing.py`: Script for cleaning, balancing, and preparing the dataset.
+  - `train_model.py`: Script for training the Random Forest and AdaBoost models.
+  - `evaluate_model.py`: Script for evaluating the trained models using different metrics.
+
 ## Dataset
 The dataset contains 5110 patient records with 12 features related to demographic information, health history, and lifestyle choices. The dataset was sourced from Kaggle and does not have any associated publication.
 
