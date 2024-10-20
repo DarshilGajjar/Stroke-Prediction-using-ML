@@ -8,7 +8,6 @@ This repository contains all the code and resources needed to reproduce the resu
 ## Table of Contents
 - [Overview](#overview)
 - [Dataset](#dataset)
-- [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Modeling Approaches](#modeling-approaches)
