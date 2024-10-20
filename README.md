@@ -22,7 +22,7 @@ The repository is organized as follows:
 
 - **data/**: This folder contains the dataset files used in this project. The dataset is preprocessed and used for training and testing the machine learning models.
 
-- **scripts/**: This folder contains the Python scripts used for data preprocessing, model training, testing, and evaluation.
+- **scripts/**: This folder contains the Python scripts used for classification tasks.
   - `supervised_classification.py`: Script for implementing supervised classification using Random Forest and AdaBoost algorithms.
   - `unsupervised_classification.py`: Script for exploring unsupervised learning techniques.
 ## Dataset
