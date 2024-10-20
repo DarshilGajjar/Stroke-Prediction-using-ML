@@ -67,7 +67,7 @@ pip install seaborn
 ## Usage
 1. Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/Stroke_Prediction_ML.git
+    git clone https://github.com/DarshilGajjar/Stroke-Prediction-using-ML.git
     cd Stroke_Prediction_ML
     ```
 
@@ -80,11 +80,11 @@ pip install seaborn
 4. Run the Python scripts:
     - **Data Preprocessing**:
       ```bash
-      python src/data_preprocessing.py
+      python srcipts/data_preprocessing.py
       ```
     - **Model Training**:
       ```bash
-      python src/model_training.py
+      python srcipts/model_training.py
       ```
 
 ## Modeling Approach
