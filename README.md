@@ -143,34 +143,6 @@ The modeling approach involves both supervised and unsupervised learning techniq
 - **Model Performance**: Random Forest outperformed AdaBoost, likely due to its ability to manage imbalanced data more effectively.
 - **Clustering**: KMeans clustering indicated two well-defined classes, providing further validation of the supervised classification results.
 
-## Results
-
-### Supervised Classification Results
-1. **Random Forest Classifier**:
-   - **Accuracy**: 75.33%
-   - **AUC (Area Under the Curve)**: 0.75
-   - The Random Forest classifier demonstrated strong performance in classifying stroke occurrences, likely due to its ability to handle the imbalanced dataset effectively.
-
-2. **AdaBoost Classifier**:
-   - **Accuracy**: 70.67%
-   - **AUC**: 0.69
-   - AdaBoost performed slightly worse compared to Random Forest but still achieved reasonable accuracy given the challenging nature of stroke prediction with imbalanced data.
-
-### Unsupervised Classification Results
-1. **KMeans Clustering**:
-   - The KMeans algorithm identified two clear clusters based on the features: Age, BMI, and Average Glucose Level. These clusters are somewhat separable, indicating the presence of two potential classes: stroke and non-stroke patients.
-   - **Silhouette Index**: Shows that the clusters are reasonably well-defined.
-   - **Calinski-Harabasz Index**: Confirms that the clusters are distinct and well-separated in the feature space.
-
-2. **Cluster Visualization**:
-   - **3D Scatter Plot**: Demonstrates a clear division between the two clusters for stroke and non-stroke patients.
-   - **1D Histograms**: Show the distribution of the three key features (Age, BMI, Average Glucose Level) for the two classes.
-
-### Key Observations:
-- **Imbalanced Dataset**: The original dataset was highly imbalanced, with only 250 stroke cases out of 5110 observations. After balancing the dataset, both classifiers showed improved performance.
-- **Model Performance**: Random Forest outperformed AdaBoost, likely due to its ability to manage imbalanced data more effectively.
-- **Clustering**: KMeans clustering indicated two well-defined classes, providing further validation of the supervised classification results.
-
 ## References
 
 1. **Heo J, Yoon JG, Park H, Kim YD, Nam HS, Heo JH**. 
