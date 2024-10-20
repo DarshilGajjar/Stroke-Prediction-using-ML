@@ -23,10 +23,8 @@ The repository is organized as follows:
 - **data/**: This folder contains the dataset files used in this project. The dataset is preprocessed and used for training and testing the machine learning models.
 
 - **scripts/**: This folder contains the Python scripts used for data preprocessing, model training, testing, and evaluation.
-  - `data_preprocessing.py`: Script for cleaning, balancing, and preparing the dataset.
-  - `train_model.py`: Script for training the Random Forest and AdaBoost models.
-  - `evaluate_model.py`: Script for evaluating the trained models using different metrics.
-
+  - `supervised_classification.py`: Script for implementing supervised classification using Random Forest and AdaBoost algorithms.
+  - `unsupervised_classification.py`: Script for exploring unsupervised learning techniques.
 ## Dataset
 The dataset contains 5110 patient records with 12 features related to demographic information, health history, and lifestyle choices. The dataset was sourced from Kaggle and does not have any associated publication.
 
@@ -78,13 +76,13 @@ pip install seaborn
     - You can view and modify the exploratory data analysis and model training process using the notebooks in the `notebooks/` folder.
 
 4. Run the Python scripts:
-    - **Data Preprocessing**:
+    - **Supervised Classification**:
       ```bash
-      python srcipts/data_preprocessing.py
+      python srcipts/supervised_classification.py
       ```
-    - **Model Training**:
+    - **Unsupervised Classification**:
       ```bash
-      python srcipts/model_training.py
+      python srcipts/unsupervised_classification.py
       ```
 
 ## Modeling Approach
