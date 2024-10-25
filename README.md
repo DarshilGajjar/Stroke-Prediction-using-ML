@@ -1,10 +1,5 @@
 # Stroke Prediction using Machine Learning
 
-## Overview
-This project focuses on predicting strokes using machine learning techniques. We implemented two supervised classification algorithms, Random Forest Classifier and AdaBoost Classifier, to predict whether or not a patient will experience a stroke based on a range of features such as age, BMI, glucose levels, and lifestyle factors. Additionally, we explored unsupervised learning to find natural clusters in the data.
-
-This repository contains all the code and resources needed to reproduce the results, including data processing scripts, model training scripts, and the final report.
-
 ## Table of Contents
 - [Overview](#overview)
 - [Project Structure](#project-structure)
@@ -15,6 +10,11 @@ This repository contains all the code and resources needed to reproduce the resu
   - [Unsupervised Learning](#unsupervised-learning)
 - [Results](#results)
 - [References](#references)
+
+## Overview
+This project focuses on predicting strokes using machine learning techniques. We implemented two supervised classification algorithms, Random Forest Classifier and AdaBoost Classifier, to predict whether or not a patient will experience a stroke based on a range of features such as age, BMI, glucose levels, and lifestyle factors. Additionally, we explored unsupervised learning to find natural clusters in the data.
+
+This repository contains all the code and resources needed to reproduce the results, including data processing scripts, model training scripts, and the final report.
 
 ## Project Structure
 
