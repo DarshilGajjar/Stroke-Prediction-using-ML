@@ -7,8 +7,8 @@ This repository contains all the code and resources needed to reproduce the resu
 
 ## Table of Contents
 - [Overview](#overview)
-- [Dataset](#dataset)
 - [Project Structure](#project-structure)
+- [Dataset](#dataset)
 - [Usage](#usage)
 - [Modeling Approaches](#modeling-approaches)
   - [Supervised Learning](#supervised-learning)
