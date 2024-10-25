@@ -47,12 +47,7 @@ The dataset includes the following features:
 - `stroke`: Whether the patient has had a stroke (0: No, 1: Yes)
 
 ## Installation
-To run this project, you will need to have the following installed:
-- Python 3.8+
-- `pip` for package management
-
-### Dependencies
-Install all dependencies using the following command:
+To set up the project, ensure you have the following libraries installed in your Python environment:
 
 ```bash
 pip install pandas
@@ -70,12 +65,9 @@ pip install seaborn
     ```
 
 2. Prepare the dataset:
-    - Place the dataset (`stroke_data.csv`) in the `data/` directory.
+    - Use the dataset (`stroke_data.csv`) from the `data/` directory.
 
-3. Run the Jupyter notebooks:
-    - You can view and modify the exploratory data analysis and model training process using the notebooks in the `notebooks/` folder.
-
-4. Run the Python scripts:
+3. Run the Python scripts:
     - **Supervised Classification**:
       ```bash
       python srcipts/supervised_classification.py
