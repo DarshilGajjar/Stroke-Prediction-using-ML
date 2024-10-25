@@ -4,6 +4,7 @@
 - [Overview](#overview)
 - [Project Structure](#project-structure)
 - [Dataset](#dataset)
+- [Installation](#installation)
 - [Usage](#usage)
 - [Modeling Approaches](#modeling-approaches)
   - [Supervised Learning](#supervised-learning)
@@ -46,7 +47,7 @@ The dataset includes the following features:
 - `smoking_status`: Formerly smoked, Never smoked, Smokes, or Unknown
 - `stroke`: Whether the patient has had a stroke (0: No, 1: Yes)
 
-### Installation
+## Installation
 To set up the project, ensure you have the following libraries installed in your Python environment:
 
 ```bash
